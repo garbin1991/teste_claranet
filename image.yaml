@@ -1,0 +1,5 @@
+- name: Criando Imagem
+  azure_rm_devtestlabcustomimage:
+    resource_group: ansible_resource_group
+    lab_name: lab_test
+    name: image

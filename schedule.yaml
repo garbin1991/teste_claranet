@@ -1,0 +1,7 @@
+- name: Criando Schedule
+  azure_rm_devtestlabschedule:
+    resource_group: ansible_resource_group
+    lab_name: lab_test
+    name: lab_vms_shutdown
+    time: "1110"
+    time_zone_id: "UTC-3"

@@ -1,0 +1,9 @@
+- name: Criando Artefatos
+  azure_rm_devtestlabartifactsource:
+    resource_group: ansible_resource_group 
+    lab_name: lab_test
+    name: raiz_artefatos
+    uri: https://github.com/garbin1991/teste_claranet.git
+    source_type: github
+    folder_path: /
+    security_token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

@@ -1,0 +1,6 @@
+- name: Criando Rede Virtual
+    azure_rm_virtualnetwork:
+    resource_group: ansible_resource_group
+    name: virtual_network
+    address_prefixes: "192.168.180.0/24"
+

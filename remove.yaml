@@ -1,0 +1,5 @@
+- name: Deleter lab
+  azure_rm_devtestlab:
+    resource_group: Ansible_resource_group
+    name: lab_test
+    state: absent

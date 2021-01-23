@@ -1,0 +1,4 @@
+- name: Criando Resource Group
+    azure_rm_resourcegrou:
+    name: ansible_resource_group
+    location: localhost

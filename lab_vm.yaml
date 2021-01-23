@@ -1,0 +1,6 @@
+- name: Criando Maquina dentro do Lab
+  azure_rm_devtestlabvirtualmachine:
+    resource_group: ansible_resource_group
+    lab_name: lab_test
+    name: maquina_lab
+    os_type: linux

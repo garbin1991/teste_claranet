@@ -1,0 +1,9 @@
+- name: Lab Policy
+  azure_rm_devtestlabpolicy:
+    resource_group: ansible_resource_group
+    lab_name: lab_test
+    policy_set_name: set_policy_lab
+    name: policy_lab
+    fact_name: lab_vm_count
+    threshold: 5
+

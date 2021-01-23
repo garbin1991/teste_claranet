@@ -1,0 +1,6 @@
+- name: Listando fonte e artefatos
+  azure_rm_devtestlabartifact_info:
+    resource_group: ansible_resource_group
+    lab_name: lab_test
+    artifact_source_name: github
+    name: raiz_artefatos
