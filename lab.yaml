@@ -1,8 +1,8 @@
 - name: Criando o LAB
   azure_rm_devtestlab:
-    resource_group: "ansible_resource_group"
-    name: "lab_test"
-    location: "localhost"
+    resource_group: ansible_resource_group
+    name: lab_test
+    location: localhost
     storage_type: standard
     
 
